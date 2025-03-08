@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import Events from "./pages/Events";
 import Memorial from "./pages/Memorial";
 import About from "./pages/About"
-import Contact from "./pages/contact";
+import Contact from "./pages/Contact";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 import FormPage from "./pages/FormPage";
