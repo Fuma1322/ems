@@ -1,0 +1,209 @@
+/*Modal*/
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content{
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    max-width: 90%;
+    text-align: center;
+}
+.modal-content label {
+    display: block;
+    margin: 10px 0;
+}
+.modal-content input,
+.modal-content textarea {
+    width: 100%;
+    margin: 5px 0;
+
+} 
+
+/*Icons*/
+.icon-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size:  16px;
+}
+
+.header-icons{
+    margin-left: auto;
+}
+.edit-icon{
+    text-align: right;
+}
+/*Gallery*/
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .gallery-card {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .gallery-card img,
+  .gallery-card video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .media-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .media-modal-content {
+    max-width: 90%;
+    max-height: 90%;
+  }
+  
+  .media-modal-content img,
+  .media-modal-content video {
+    width: 100%;
+    height: auto;
+  }
+  
+/*General container*/
+.memorial-container {
+    top: 0;
+    max-width: auto;
+    margin: 1rem auto;
+    padding: 5rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Section */
+  .memorial-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 45px 45px 45px 45px;
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .memorial-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 1px solid teal;
+  }
+  
+  .memorial-info {
+    text-align: left;
+  }
+  
+  .memorial-name {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .memorial-dates {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 5px 0 0;
+  }
+
+  /*Memorial Content*/
+  .memorial-content{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    backdrop-filter: blur(2px);
+    width: fit-content;
+    padding: 50px;
+    width: 100%;
+  }
+
+  /*Life Image*/
+  .life-image{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+  }
+  
+  /* Links Section */
+  .memorial-links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    background-color: transparent;
+    padding: 20px;
+    margin: 10px 0 ;
+  }
+  
+  .memorial-link {
+    text-decoration: none;
+    color:#21a1f1;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s, border-bottom 0.3s;
+    padding-bottom: 2px;
+  }
+  
+  .memorial-link.active {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+  }
+  
+  .memorial-link:hover {
+    color: #0056b3;
+  }
+  
+  /* Content Section */
+  .memorial-body {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    min-height: 100px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .placeholder-picture {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-size: 1rem;
+    text-align: center;
+  }
+  

@@ -1,0 +1,109 @@
+.login-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+.login-page h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #1E2023;
+    text-align: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px 40px;
+}
+
+.login-form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    
+}
+
+.login-form input {
+    padding: 15px 45px 15px 15px;
+    border: 1px solid #c6b5b5;
+    border-radius: 40px;
+    background-color: transparent;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    text-align: left;
+    
+}
+.login-form input::placeholder{
+    color: aqua;
+}
+
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin:15px 0 15px;
+}
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 4px;
+}
+.remember-forgot a {
+    color: #1E2023;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+    color: #21a1f1;
+}
+
+.login-button {
+    padding: 0.7rem;
+    font-size: 14.5px;
+    color: #fff;
+    background-color: #133f5a;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #21a1f1;
+}
+
+.register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link a{
+    color: #1b2034;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+    color: #21a1f1;
+} 
+
+.error{
+    color: red;
+    font-size: 0.9rem;
+}
+
+.success{
+    color:green;
+    font-size: 0.9rem;
+}

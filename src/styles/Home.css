@@ -1,0 +1,155 @@
+.home {
+    background: url('ems.jpg') no-repeat center center/cover;
+    position: relative;
+    color: white;
+    padding-top: 16rem;
+}
+
+@media (max-width: 768px) {
+    .home {
+        padding-top: 4rem;
+    }
+}
+
+.home-header {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    padding: 5rem;
+}
+
+.home-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 4rem;
+}
+
+.home-header p {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-cta {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    color: white;
+    background-color: #133f5a;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+}
+
+.about-section{
+    background-color: #133f5a;
+    color: #ffffff;
+    padding: 2rem;
+    backdrop-filter: blur(2px);
+    height: 26rem;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 4rem;
+}
+
+.about-section p {
+    font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+    .about-section p {
+        font-size: 1rem;
+    }
+}
+
+.about-section a {
+    color: #000000;
+    padding: 0.5rem 1rem;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 1rem; 
+}
+
+.about-section a:hover {
+    background-color: gray;
+}
+
+.contact-section {
+    background-color: white;
+    color: black;
+    height: 24rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 4rem;
+}
+
+.contact-section p {
+    font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+    .contact-section p {
+        font-size: 1rem;
+        padding: 2rem;
+    }
+
+    .contact-section a {
+        margin-bottom: 1rem;
+    }
+}
+
+.contact-section a {
+    color: white;
+    background-color: #133f5a;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.contact-section a:hover {
+    background-color: black;
+}
+
+.learn-more{
+    display: inline-block;
+    margin-top: 1rem;
+    color: #0810f7;
+    text-decoration: none;
+}
+
+/* Section Container */
+.section-container {
+    position: relative;
+    text-align: center;
+    padding: 7rem 1rem;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Headings */
+.section-container h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: white;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+.section-container p {
+    max-width: 32rem;
+    margin: 0 auto;
+    color: rgb(156, 163, 175);
+}

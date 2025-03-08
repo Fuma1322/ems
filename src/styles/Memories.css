@@ -1,0 +1,108 @@
+.memories-page {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: transparent;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.memories-page h1{
+    text-align: center;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    background-color: #ccc;
+}
+
+.tabs button {
+    padding: 10px 20px;
+    background-color: #eee;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.tabs button.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.tabs button:hover {
+    background-color: #ddd;
+}
+
+.tab-content {
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    width: 450px;
+    padding: 20px;
+    justify-self: center;
+}
+
+.memories-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+}
+
+.memories-form textarea,
+.memories-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.memories-form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.memories-form button:hover {
+    background-color: #45a049;
+}
+
+.g.gallery {
+    margin-top: 20px;
+}
+
+.gallery h2 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.gallery-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.gallery-item {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.life-story-image{
+    width: 200px;
+    height: 200;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}

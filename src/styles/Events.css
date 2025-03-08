@@ -1,0 +1,42 @@
+.events-page{
+    text-align: center;
+    padding: 32px;
+    min-height: 100vh;
+    min-width: 100vw;
+    padding: 100px 10px 20px 20px;
+}
+
+.events-options {
+    display: flex;
+    justify-content: center;
+    gap:16px;
+    margin-top: 1.5rem;
+}
+
+.event-button{
+    padding: 16px 32px;
+    margin: 1rem 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #133f5a;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.event-button:hover{
+    background-color: #21a1f1;
+}
+
+.selected-event{
+    margin-top:  2rem;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: black;
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
