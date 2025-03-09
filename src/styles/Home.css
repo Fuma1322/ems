@@ -46,6 +46,10 @@
     z-index: 2;
 }
 
+.home-cta:hover {
+    background-color: black;
+}
+
 .about-section{
     background-color: #133f5a;
     color: #ffffff;
