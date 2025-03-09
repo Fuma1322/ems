@@ -72,7 +72,7 @@ function FormPage() {
             <h2>Events  Memorial QR-Code Generator</h2>
             
             <form onSubmit={handleSubmit}>
-                <div>
+                <div className='input'>
                     <label>Name of the Deceased:</label>
                     <input
                         type="text"
